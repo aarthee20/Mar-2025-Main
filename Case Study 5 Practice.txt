@@ -1,0 +1,48 @@
+=====================================================================
+Sprint / User Story: 
+=====================================================================
+
+Yearly report:
+			A few basic concepts
+				Bookmarks, Bookmark actions
+				Pagenavigation actions
+				Sync Slicer
+
+			Security in the report:
+
+			Connected user should see respective data
+			Assigned users should see HYD role data (where hyd information available)
+			Assigned users should see MSBI-F and Power BI-F data only
+
+Monthly report:
+
+			A few visuals
+
+Yearly report to monthy report navigation based on 'Year'.  
+
+
+
+===================================================================
+Cloud Level Operations
+===================================================================
+
+1)  vinaytech 0207 and vinaytech 1902 users should only access workspace.
+		0207 user can moify the content
+		1902 user should view the data only
+
+2) 0207 user shoul be able to reshare the dataset of the current reports.
+
+3) 	Ramesh should have access on HYD role
+	Only two people should see their respective data 
+4)	Present to customer in easy understandable way (using App)
+
+5) On-Demand and Scheduled Refresh of Reports should work properly
+	Daily data changing at 8 am, so refresh the dataset at 8.30 and schedule the report delivery at 9 am.
+
+6)  Test the Report
+
+7) Move the repports from Dev to Test environment(Deployment)
+	Move the reports from Dev_Test, Test_Prod etc.
+
+8) Maintaining Versioning
+	Use Azure Git or Github for versioning
